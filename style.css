@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    width: 1330px;
+    height: 623px;
+    background-image: url(./assets/Banner.png);
+}
+
+.navbar-wrapper{
+    height: 47px;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-link{
+    color: #ffffff;
+}
+
+.nav-item{
+    padding-inline: 10px;
+}
+
+.nav-item >a:hover{
+    color: #ffffff;
+}
+
+.navbar-link > a{
+    color: #FDC221;
+}
+
+.sub-header{
+    color: #ffffff;
+    height: 497px;
+    margin-top: 80px;
+}
+
+
+
+.text-header > h1{
+    text-transform: capitalize;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+}
+
+.text-header > p{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: #E1E1E1;
+}
+
+.image-header{
+    height: 500px;
+    width: 470px;
+}
+
+.image-header > img{
+    margin-top: -4px;
+    height: 500px;
+}
+
+.btn{
+    margin-top: 90px;
+}
+
+.btn > button{
+    width: 280px;
+    height: 64px;
+    border-radius: 70px;
+    border: none;
+    background: linear-gradient(96.97deg, #F79E0E 7.82%, #EEBD23 103.98%);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    color: #FFFFFF;
+}
